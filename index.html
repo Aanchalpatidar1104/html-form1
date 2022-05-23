@@ -13,12 +13,62 @@
         <input type="submit" name="submit"/>
     </form>
     <form>
-        <h1>Form</h1>
+        <h1>Form1</h1>
         <label for="fname">First Name:</label><br>
         <input type="text"name="name"placeholder="Enter your first name"/><br>
         <label for="lname">Last Name:</label><br>
         <input type="text"name="surname"placeholder="Enter your last name"/><br><br>
         <input type="submit" name="submit"/>
+    </form>
+    <form>
+        <h1>Form2</h1>
+        <fieldset>
+            <legend>personal details</legend>
+            <p>
+                <label>
+                    salutation
+                    <br/>
+                    <select name="salutation">
+                        <option>--none--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                        <option>Mrs.</option>
+                        <option>Dr.</option>
+                        <option>Prof.</option>
+                    </select>
+                
+                </label>
+            </p>
+            <p>
+                <label>First name:</label><input type="text"name="name"/>
+                <p>
+                <label>Last name:</label><input type="text"name="surname"/>
+                </p>
+            <p>
+                Gender:
+            <label><input type="radio"name="Gender" value="male"/>Male</label>
+            <label><input type="radio"name="Gender" value="female"/>Female</label>
+            <p>
+                <label>Email:</label><input type="email"name="email"/>
+
+            </p>
+            <p>
+                <label>Date of Birth:<input type="date"name="BirthDate"/></label>
+
+            </p>
+            <p>
+                <label>
+                    Address:
+                    <br/>
+                    <textarea name="Address" cols="30"rows="3"></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+
+            </p>
+        </fieldset>
     </form>
     
 </body>
